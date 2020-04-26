@@ -1,5 +1,5 @@
 #! python3
-# mclip.py - A program to copy multiple messages to clipboard
+# mclip.py - store and easily copy multiple messages to your computer's clipboard 
 
 TEXT = {
     'reminder': '''Hey <customers' name>, quick reminder about your meeting tomorrow with <employee name> at <address>''',
