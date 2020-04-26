@@ -8,3 +8,9 @@ TEXT = {
     'agree': '''Yes, I agree. That sounds fine to me''',
     'busy': '''Sorry. Can we do this later this week or next week kindly.'''
 }
+
+import sys
+if len(sys.argv) < 2:
+    print('Usage: python mclip.py[keyphrase] - copy phrase text')
+    sys.exit()
+keyphrase = sys.argv[1]  # second command-line argument is the keyphrase
