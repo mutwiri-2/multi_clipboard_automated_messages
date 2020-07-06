@@ -1,0 +1,14 @@
+A program that stores multiple messages which can be easily accessed and copied
+to the clipboard to then be pasted easily as required
+
+Step 1: Program Design and Data Structures
+
+Use a dictionary with a key-phrase as the key and the associated message as value
+The key-phrase will be a one word phrase that can be used to easily access the 
+message
+
+Our program will run as follows;
+ using a command line argument that is a short key phrase the message associated
+ with that key phrase will be copied to the clipboard so that the user can paste
+ it as neccessary. This way, the user can have long, detailed messages without
+ having to retype them
