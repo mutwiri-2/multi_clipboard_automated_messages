@@ -19,3 +19,6 @@ the second is the phrase which is the key to the text we want copied to clipboar
 Display a message if user forgets to add phrase i.e if the command line arguments
 are less than 2, otherwise assign the second command line argument to a variable
 
+Step 3: Copy the Right Phrase
+Using the variable that stores the second command line argument, if it exists as
+a key in the dictionary, copy it to the clipboard and notify user. If not, display useful message
