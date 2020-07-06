@@ -12,3 +12,10 @@ Our program will run as follows;
  with that key phrase will be copied to the clipboard so that the user can paste
  it as neccessary. This way, the user can have long, detailed messages without
  having to retype them
+
+Step 2: Handle Command Line Arguments
+Program should have 2 command-line arguments - the first is the program name and 
+the second is the phrase which is the key to the text we want copied to clipboard
+Display a message if user forgets to add phrase i.e if the command line arguments
+are less than 2, otherwise assign the second command line argument to a variable
+
