@@ -1,4 +1,8 @@
 #! python3
+# In Unix, an executable file that's meant to be interpreted can
+# indicate what interpreter to use by having a #! (shebang) at the start of the first line,
+# followed by the interpreter (and any flags it may need).
+
 # mclip.py - store and easily copy multiple messages to your computer's clipboard 
 
 TEXT = {
